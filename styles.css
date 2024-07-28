@@ -1,0 +1,60 @@
+body {
+    background: url('fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.categories button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    background-color: #555;
+}
+
+.service-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-item a {
+    color: #0af;
+    text-decoration: none;
+}
+
+.service-item a:hover {
+    text-decoration: underline;
+}
